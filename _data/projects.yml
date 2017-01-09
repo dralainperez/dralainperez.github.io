@@ -1,0 +1,29 @@
+- 
+  type: work
+  key: cityfied
+  title: "CITyFiED"
+  description: "<p>A replicable, systemic and integrated strategy to adapt European cities and urban ecosystems into the smart city of the future.</p>
+  <p>The CITyFiED project aims to develop a replicable, systemic and integrated strategy to adapt European cities and urban ecosystems into the smart city of the future, focusing on reducing the energy demand and GHG emissions and increasing the use of renewable energy sources by developing and implementing innovative technologies and methodologies for building renovation, smart grid and district heating networks and their interfaces with ICTs and Mobility.</p>"
+  mainpage: "http://es.cityfied.eu/"
+- 
+  type: work
+  key: smartencity
+  title: "SmartEnCity"
+  description: "<p>SmartEnCity is a project funded under the European Union’s Horizon 2020 research and innovation programme. Under the coordination of TECNALIA Research & Innovation, 35 partners from six countries are joining forces to make Smart Zero Carbon Cities a reality in Europe.</p>
+  <p>SmartEnCity’s main objective is to develop a highly adaptable and replicable systemic approach for transforming European cities into sustainable, smart and resource-efficient urban environments. This will be achieved through the integrated planning and implementation of measures aimed at improving energy efficiency in main consuming sectors in cities, while increasing their supply of renewable energy and demonstrating the benefits.</p>
+  <p>The underlying concept is the Smart Zero Carbon City concept, where city carbon footprint and energy demand are kept to a minimum by using demand controlled technologies that save energy and promote raised awareness. At the same time, the energy supply is entirely renewable and clean and local energy resources are intelligently managed by aware citizens, as well as coordinated public and private stakeholders. </p>"
+  mainpage: "http://smartencity.eu/"
+- 
+  type: personal
+  key: toqan
+  title: "Toq Alternative Notifications (ToqAN)"
+  description: "<p>Toq Alternative Notifications (a.k.a. ToqAN) is an app that enables Android Lollipop notifications to be sent properly to Qualcomm's Toq Smartwatch. Qualcomm's Default Toq is not being mantained anymore, and it does not work properly with Android Lollipop. All the text of the notifications are sent in the title section. This app sends those notifications properly and enables an applet with the devices current notifications.</p>"
+  mainpage: "http://alaintxu.github.io/toq_alternative_notifications/"
+- 
+  type: personal
+  key: revib
+  title: "ReviB CPR"
+  description: "<p>ReviB CPR has been created as a learning tool in order to teach people what to do in case of finding an unconscious person and how to perform cardiopulmonary resuscitation manoeuvres during a cardiac arrest.</p>
+  <p>It comes with graphic instructions and voice commands in different languages adapted to the casualty age (adult, child or baby) and incorporates a chronometer that counts up the time since we start CPR. Besides, with its 'training mode', you can also have the opportunity of self-learning and practice at any time.</p>
+  <p>Thanks for its easy use, 'ReviB' will show you all the steps until medical help arrives.</p>"
+  mainpage: "http://revib.github.io/ReviB/"

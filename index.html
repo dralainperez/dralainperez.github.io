@@ -1,0 +1,175 @@
+---
+layout: default
+lang: en
+---
+
+
+<!-- Main -->
+<div id="main">
+    <section>
+            <header class="major">
+                <h2>Interests</h2>
+            </header>
+
+            <p>
+                I am interested on 
+                {% for interest in site.data.interests %}
+                    {% if forloop.last %}
+                        and <b property="foaf:interest">{{interest.interest}}</b>
+                    {% else %}
+                        <b property="foaf:interest">{{interest.interest}}</b>, 
+                    {% endif %}
+                {% endfor %}
+                        
+            </p>
+    </section>
+<!-- Biography -->
+    <section>
+            <header class="major">
+                <h2>Biography</h2>
+            </header>
+            <article>
+                <header>
+                        <h3>Higher Education</h3>
+                </header>
+                <p>{{ site.he_intro }}</p>
+                <ul>
+                    {% for education in site.data.education %}
+                        <li>{{education.title}} ({{education.begin}}-{{education.end}}).</li>
+                    {% endfor %}
+                </ul>
+            </article>
+            <article>
+                <header>
+                        <h3>Work</h3>
+                </header>
+                <p>{{ site.w_intro }}</p>
+                <ul>
+                    {% for work in site.data.works %}
+                        <li>
+                        {% if work.end %}
+                        I worket at {{work.company}} as {{work.as}} from {{work.begin}} to {{work.end}}.
+                        {% else %}
+                        Currently working at {{work.company}} as {{work.as}} since {{work.begin}}.
+                        {% endif %}
+                        </li>
+                    {% endfor %}
+                </ul>
+            </article>
+        
+    </section>
+<!-- Publications -->
+    <section>
+        <header>
+                <h2><a href="https://scholar.google.es/citations?user=N6bPxS0AAAAJ">Publications</a></h2>
+        </header>
+        
+        <div class="row">
+            {% for pub in site.data.publications %}
+
+                <article class="{% cycle '6u', '6u$' %} 12u(small)">
+                    <a class="image fit thumb" style="cursor: pointer; outline: 0px none;" href="pdf/{{ pub.key }}.pdf"><img src="images/publication/{{ pub.key }}.png" alt=""></a>
+                    <h3>{{pub.title}}</h3>
+                    <p>{% cite pub.key %}</p>
+                    <!--p>
+                        {{ pub.publisher }} ({{pub.published}})<br/>
+                        {{ pub.authors }}
+                    </p-->
+                    <footer>
+                        <ul class="actions">
+                            <li><a href="bibtex/{{ pub.key }}.bib" class="button">Bibtex</a></li>
+                            {% if pub.slides %}
+                            <li><a href="pdf/{{ pub.key }}_slides.pdf" class="button">Slides</a></li>
+                            {% endif %}
+                        </ul>
+                    </footer>
+                </article>
+            {% endfor %}
+        </div>
+    </section>
+<!-- Projects -->
+    <section>
+        <header>
+                <h2>Projects</h2>
+        </header>
+        
+        <div class="row">
+            {% assign projects = site.data.projects | where: "type", "work" %}
+            {% for project in projects %}
+                <article class="{% cycle '6u', '6u$' %} 12u(small)">
+                    <a class="image fit thumb" style="cursor: pointer; outline: 0px none;" href="{{project.mainpage}}"><img src="images/project/{{ project.key }}.png" alt=""></a>
+                    <h3>{{project.title}}</h3>
+                    <p>{{ project.description }}</p>
+                    <footer>
+                        <ul class="actions">
+                            <li><a href="{{project.mainpage}}" class="button">Main page</a></li>
+                        </ul>
+                    </footer>
+                </article>
+            {% endfor %}
+        </div>
+    </section>
+<!-- Personal Projects -->
+    <section>
+        <header>
+                <h2>Personal Projects</h2>
+        </header>
+        
+        <div class="row">
+            {% assign p_projects = site.data.projects | where: "type", "personal" %}
+            {% for project in p_projects %}
+                <article class="{% cycle '6u', '6u$' %} 12u(small)">
+                    <a class="image fit thumb" style="cursor: pointer; outline: 0px none;" href="{{project.mainpage}}"><img src="images/project/{{ project.key }}.png" alt=""></a>
+                    <h3>{{project.title}}</h3>
+                    <p>{{ project.description }}</p>
+                    <footer>
+                        <ul class="actions">
+                            <li><a href="{{project.mainpage}}" class="button">Main page</a></li>
+                        </ul>
+                    </footer>
+                </article>
+            {% endfor %}
+        </div>
+    </section>
+<!-- Contact -->
+        <section id="three">
+	        <h2>Get In Touch</h2>
+	        <p>To contact me at work.</p>
+	        <div class="row">
+		        <div class="8u 12u$(small)">
+			        <form method="get" action="mailto:{{site.email}}" enctype="text/plain">
+				        <div class="row uniform 50%">
+					        <div class="6u 12u$(xsmall)"><input name="subject" id="subject" placeholder="Name" type="text"></div>
+					        <div class="6u$ 12u$(xsmall)"><input name="from" id="from" placeholder="Email" type="email"></div>
+					        <div class="12u$"><textarea name="body" id="body" placeholder="Message" rows="4"></textarea></div>
+				        </div><br/>
+			        <ul class="actions">
+				        <li><input value="Send Message" type="submit"></li>
+			        </ul>
+			        </form>
+		        </div>
+		        <div class="4u$ 12u$(small)">
+			        <ul class="labeled-icons">
+				        <li>
+					        <h3 class="icon fa-home"><span class="label">Address</span></h3>
+                                                <span property="foaf:address">{{ site.address }}</span>
+				        </li>
+				        <li>
+					        <h3 class="icon fa-mobile"><span class="label">Phone</span></h3>
+					        <span property="foaf:phone">{{site.phone}}</span>
+				        </li>
+				        <li>
+					        <h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
+					        <span property="foaf:mbox">{{site.email}}</span>
+				        </li>
+			        </ul>
+		        </div>
+	        </div>
+        </section>
+        <section>
+                <h2>All publications</h2>
+                
+
+                {% bibliography %}
+        </section>
+</div>

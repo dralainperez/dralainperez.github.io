@@ -1,0 +1,32 @@
+# Site settings
+title: Dr
+me: Alain Perez Riaño
+email: aperez@mondragon.edu
+
+description: > # this means to ignore newlines until "baseurl:"
+  Lecturer and Researcher at <b>Mondragon Unibertsitatea</b>
+baseurl: "/profile" # the subpath of your site, e.g. /blog/
+url: "https://w3id.org/people/aperez" # the base hostname & protocol for your site
+
+# Social links.
+# Replace the word 'example' with your username if you want to include the icon in the left sidebar
+# Delete the word 'example' if you don't want to include the icon in the left sidebar
+
+twitter_username:     dralainperez  # Replace this with your Twitter username
+github_username:      dralainperez  # Replace this with your GitHub username
+linkedin_username:    alainperez  # Replace this with your LinkedIn username
+google_plus_username:  # Replace this with your Google+ username
+facebook_username:  # Replace this with your Facebook username
+dribbble_username:  # Replace this with your Dribbble username
+address: "Goiru 2<br/>Arrasate-Mondragon 20500 (Gipuzkoa)<br/>"
+phone: "+34 647-504-476"
+email: "aperez@mondragon.edu"
+
+# Higher education
+he_intro: I completed all my high education studies at Mondragon Unibertsitatea.
+# Work
+w_intro: 
+
+# Build settings
+include: ['_pages']
+markdown: kramdown

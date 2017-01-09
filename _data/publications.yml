@@ -1,0 +1,24 @@
+- order: 6
+  key: thesis
+  title: "Semantic Web and Semantic Technologies to enhance Innovation and Technology Watch processes."
+  slides: true
+- order: 5
+  key: dea
+  title: "Social Web, Semantic Technologies and Semantic Web to enhace Collaborative Innovation and Technology Watch Processes."
+  slides: true
+- order: 4
+  key: role
+  title: "The Role of Linked Data and Semantic-Technologies for Sustainability Idea Management."
+  slides: false
+- order: 3
+  key: innoweb
+  title: "INNOWEB: Gathering the context information of innovation processes with a collaborative social network platform."
+  slides: false
+- order: 2
+  key: casestudy
+  title: "A case study on the use of community platforms for inter-enterprise innovation."
+  slides: false
+- order: 1
+  key: kiroltrack
+  title: "Kiroltrack: Innovando la gestión de rutas. Plataforma de servicios web de geo-referenciación social, multi-deporte y personalizable."
+  slides: false

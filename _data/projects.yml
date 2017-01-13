@@ -1,18 +1,75 @@
-- 
-  type: work
-  key: cityfied
-  title: "CITyFiED"
-  description: "<p>A replicable, systemic and integrated strategy to adapt European cities and urban ecosystems into the smart city of the future.</p>
-  <p>The CITyFiED project aims to develop a replicable, systemic and integrated strategy to adapt European cities and urban ecosystems into the smart city of the future, focusing on reducing the energy demand and GHG emissions and increasing the use of renewable energy sources by developing and implementing innovative technologies and methodologies for building renovation, smart grid and district heating networks and their interfaces with ICTs and Mobility.</p>"
-  mainpage: "http://es.cityfied.eu/"
+
 - 
   type: work
   key: smartencity
-  title: "SmartEnCity"
-  description: "<p>SmartEnCity is a project funded under the European Union’s Horizon 2020 research and innovation programme. Under the coordination of TECNALIA Research & Innovation, 35 partners from six countries are joining forces to make Smart Zero Carbon Cities a reality in Europe.</p>
-  <p>SmartEnCity’s main objective is to develop a highly adaptable and replicable systemic approach for transforming European cities into sustainable, smart and resource-efficient urban environments. This will be achieved through the integrated planning and implementation of measures aimed at improving energy efficiency in main consuming sectors in cities, while increasing their supply of renewable energy and demonstrating the benefits.</p>
-  <p>The underlying concept is the Smart Zero Carbon City concept, where city carbon footprint and energy demand are kept to a minimum by using demand controlled technologies that save energy and promote raised awareness. At the same time, the energy supply is entirely renewable and clean and local energy resources are intelligently managed by aware citizens, as well as coordinated public and private stakeholders. </p>"
+  title: SmartEnCity
+  subtitle: Towards Smart Zero CO2 Cities across Europe
+  description: "<p>SmartEnCity’s main Objective is to develop a highly adaptable and replicable systemic approach towards urban transformation into sustainable, smart and resource-efficient urban environments in Europe through the integrated planning and implementation of measures aimed at improving energy efficiency in main consuming sectors in cities, while increasing their supply of renewable energy, and demonstrate its benefits.
+The underlying concept of the proposal is the Smart Zero Carbon City concept, where city carbon footprint and energy demand are kept to a minimum through the use of demand control technologies that save energy and promote raised awareness; energy supply is entirely renewable and clean; and local energy resources are intelligently managed by aware citizens, as well as coordinated public and private stakeholders.
+<p>This approach will be firstly defined in detail, laid out and implemented in the three Lighthouse demonstrators (Vitoria-Gasteiz in Spain, Tartu in Estonia and Sonderborg in Denmark). The three cities will develop a number of coordinated actions aimed at:</p>
+<ul>
+<li>Significant demand reduction of the existing residential building stock through cost-effective low energy retrofitting actions at district scale.</li>
+<li>Increase in RES share of energy supply, through extensive leveraging of local potentials.</li>
+<li>Enhance the use of clean energy in urban mobility, both for citizens and goods, by means of extensive deployment of green vehicles and infrastructure.</li>
+</ul>
+<p>An extensive use of ICTs is planned to achieve integration and consistency in demo planning and implementation, and to enable further benefits and secure involvement of citizens.</p>
+<p>These actions will be aligned to city-specific Integrated Urban Plans (IUPs), and the process will be replicated in two Follower cities: Lecce, (Italy), and Asenovgrad (Bulgaria) to ensure adaptability and maximize the project impact.</p>
+<p>Additionally, a Smart Cities Network will be setup to support project replication at European scale.</p>"
   mainpage: "http://smartencity.eu/"
+  founding: Europe
+  start-date: 2016-02-01
+  end-date: 2021-07-31
+- 
+  type: work
+  key: cityfied
+  title: CITyFiED
+  subtitle: RepliCable and InnovaTive Future Efficient Districts and cities
+  description: "<p>CITyFiED project aims to develop a replicable, systemic and integrated strategy to adapt European cities and urban ecosystems into the smart city of the future, focusing on reducing the energy demand and GHG emissions and increasing the use of renewable energy sources by developing and implementing innovative technologies and methodologies for building renovation, smart grid and district heating networks and their interfaces with ICTs and Mobility. This strategy has the following pillars:</p>
+<ol>
+<li>Large scale demonstrations: three holistic district renovations at Laguna-Valladolid (Spain), Soma (Turkey) and Lund (Sweden), deploying innovative and cost-effective technologies for a high increase of the overall energy efficiency and a relevant reduction of the environmental impact. A deep retrofitting of the buildings, an innovative district heating and cooling concept and a set of solutions to improve the grid management and increase the distributed electricity generation are going to be carried out in order to achieve powerful models suitable for replication across Europe.</li>
+<li>Maximization of the replication potential: organization of a cluster of cities. More than 15 cities have already signed a letter expressing their interest to be part of this cluster.</li>
+<li>3. Development of innovative and cost effective methodologies and procedures for planning, deploying and replicating energy efficient district retrofitting actions, resulting in low energy and zero emission cities and urban areas, deploying HVAC facilities based on a district scale and also integrating distributed electricity generation.</li>
+<li>Dissemination: It is also foreseen to give a clear message to professionals, academic audiences and the citizens in general, about the benefits of the energy efficiency in the city environment, but also addressing complementary issues such as mobility, in order to modify the user behaviour towards a more sustainable awareness.</li></ol>"
+  mainpage: "http://es.cityfied.eu/"
+  founding: Europe
+  start-date: 2014-04-01
+  end-date: 2018-03-31
+- 
+  type: work
+  key: rennovates
+  title: REnnovates
+  subtitle: Flexibility activated zero energy districts
+  description: "<p>The Ren(n)ovates proposal focuses on the deployment and demonstration of an innovative systemic, 4-step holistic approach comprising state-of-the-art renovation with state-or-the-art smart ICT control. Deep renovation of residential buildings will be carried out including the installation of a standardised pre-fabricated energy module equipped with communication technology converting the buildings into Net Zero Energy Buildings. This can be achieved with minimal disturbance to the tenant and with minimal renovation costs for the tenant/building owner by means of an innovative business model. The inclusion of interoperable smart control strategies introduced at building- , cluster- and business level, implemented on existing software platforms and standard compliant serve to ‘unlock’ the residential energy flexibility for grid and system level services. The project addresses the call for Energy-Efficient Buildings (H2020-EeB-2015), more specifically the topic EeB-08-2015 : Integrated Approach to Retrofitting of Residential Buildings.</p>"
+  mainpage: "http://cordis.europa.eu/project/rcn/198375_en.html"
+  founding: Europe
+  start-date: 2015-09-01
+  end-date: 2018-08-31
+- 
+  type: work
+  key: sportics
+  title: "SPORTICs"
+  subtitle: Investigación en tecnologías, modelos y metodologías para materializar una plataforma de servicios web de geo-referenciación de soporte a la creación de una red social integral, multi-deporte y personalizable.
+  description: "<p>Los objetivos definidos en este proyecto son:</p>
+<ul>
+<li>Implementar  una nueva propuesta de valor y crear   un nuevo prototipo denominado Kiroltrack, partiendo de la base GeoRef, pero realizando un cambio de diseño, e incorporando todas las funcionalidades identificadas como reto y propuesta de valor.</li>
+<li>•Identificar además nuevas funcionalidades innovadoras a incorporar  a Kiroltrack.</li>
+<li>Definir una nueva arquitectura que dé soporte al prototipo y que facilite el futuro crecimiento del sistema.</li>
+<br>
+<li>Difundir entre empresas e instituciones vinculadas a ámbitos cercanos a la aplicación de las tecnologías de Kiroltrack: principalmente deporte y turismo, los avances del proyecto de investigación de Georef/Kiroltrack para  encontrar partners, ámbitos de negocios donde materializar estos conocimientos. Se pretende que el producto Kiroltrack  sea utilizado como muestra, ejemplo, del potencial de estas tecnologías.  Al mismo tiempo también  detectar nuevas necesidades no identificadas, nuevos requerimientos, nuevas potencialidades, sobre las cuales poder seguir trabajando.</li>
+<li>Mantener intensamente activo el proceso de  vigilancia con respecto a las tecnologías de geo-referenciación así como las tecnologías de base adoptadas en GeoRef, y las variaciones con respecto a la oferta de mercado.</li>
+</ul>
+<p>Las componentes de aportación de valor a contemplar son:</p>
+<li>Funcionalidades de gestión de  rutas innovadoras.</li>
+<li>Funcionalidades sociales.</li>
+<li>Implementación de nueva arquitectura</li>
+<li>Movilidad/ realidad aumentada.</li>
+<li>Gestión de puntos de interés, Points Of Interest  o POIs</li>
+<li>Productos para empresas.</li>
+</ul></p>"
+  mainpage: "http://www.mondragon.edu/eps/proiektuak/desk.asp?idal=25025&anio=2011"
+  founding: Gobierno Vasco - Departamento de Educación / LKS S.Coop
+  start-date: 2012-01-23
+  end-date: 2013-12-31
 - 
   type: personal
   key: toqan

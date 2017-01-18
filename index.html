@@ -20,7 +20,6 @@ lang: en
                         <b property="foaf:interest">{{interest.interest}}</b>, 
                     {% endif %}
                 {% endfor %}
-                        
             </p>
     </section>
 <!-- Biography -->
@@ -48,7 +47,7 @@ lang: en
                     {% for work in site.data.works %}
                         <li>
                         {% if work.end %}
-                        I worket at {{work.company}} as {{work.as}} from {{work.begin}} to {{work.end}}.
+                        I worked at {{work.company}} as {{work.as}} from {{work.begin}} to {{work.end}}.
                         {% else %}
                         Currently working at {{work.company}} as {{work.as}} since {{work.begin}}.
                         {% endif %}
@@ -61,7 +60,16 @@ lang: en
 <!-- Publications -->
     <section>
         <header>
-                <h2><a href="https://scholar.google.es/citations?user=N6bPxS0AAAAJ">Publications</a></h2>
+                <h2>
+                Publications
+                {% if site.gscholar or site.orcid %}
+                (
+                        {% if site.gscholar %}<a href="https://scholar.google.es/citations?user={{site.gscholar}}">Google Scholar</a>{% endif %}
+                        {% if site.gscholar and site.orcid %}|{% endif %}
+                        {% if site.gscholar %}<a href="https://orcid.org/{{site.orcid}}">ORCID</a>{% endif %}
+                )
+                {% endif %}
+                </h2>
         </header>
         
         <div class="row">
@@ -125,7 +133,8 @@ lang: en
                 <article class="{% cycle '6u', '6u$' %} 12u(small)">
                     <a class="image fit thumb" style="cursor: pointer; outline: 0px none;" href="{{project.mainpage}}"><img src="images/project/{{ project.key }}.png" alt=""></a>
                     <h3>{{project.title}}</h3>
-                    <p>{{ project.description }}</p>
+                    <button class="accordion">Long description</button>
+                    <div class="panel">{{ project.description }}</div>
                     <footer>
                         <ul class="actions">
                             <li><a href="{{project.mainpage}}" class="button">Main page</a></li>

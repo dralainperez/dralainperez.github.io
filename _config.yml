@@ -19,6 +19,7 @@ google_plus_username:  # Replace this with your Google+ username
 facebook_username:  # Replace this with your Facebook username
 dribbble_username:  # Replace this with your Dribbble username
 orcid: 0000-0002-6200-589X
+gscholar: N6bPxS0AAAAJ
 address: "Goiru 2<br/>Arrasate-Mondragon 20500 (Gipuzkoa)<br/>"
 phone: "+34 647-504-476"
 email: "aperez@mondragon.edu"
@@ -27,6 +28,10 @@ email: "aperez@mondragon.edu"
 he_intro: I completed all my high education studies at Mondragon Unibertsitatea.
 # Work
 w_intro: 
+
+# Bibliography
+#source: ./_bibliography
+#bibliography: bibtex/*.bib
 
 # Build settings
 include: ['_pages']
